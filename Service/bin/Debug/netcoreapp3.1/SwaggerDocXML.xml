@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Service</name>
+    </assembly>
+    <members>
+        <member name="M:Service.Controllers.AddressController.UpdateAddress(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Dto.Dtos.UpdateDtos.AddressUpdateDto})">
+            <summary>
+            Update an address for a person, enterprise,... and return it updated.
+            </summary>
+            <param name="id">Address id</param>
+            <param name="patchDoc">Patch actions to execute on the Address</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.ContactController.GetContacts">
+            <summary>
+            Get all the contacts for the connected user(default) or the specified user.
+            </summary>
+            <param name="userId">Id of the user for which to get the contacts</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.ContactController.AddContact(System.Guid)">
+            <summary>
+            Add the contact to the connected user.
+            </summary>
+            <param name="contactPersonId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.ContactController.DeleteContact(System.Guid)">
+            <summary>
+            Delete the contact from the connected user's list.
+            </summary>
+            <param name="contactPersonId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.EnterpriseController.AddEnterprise(Dto.Dtos.AddDtos.EnterpriseAddDto)">
+            <summary>
+            Add a new enterprise.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.EnterpriseController.UpdateEnterprise(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Dto.Dtos.UpdateDtos.EnterpriseUpdateDto})">
+            <summary>
+            Update an eterprise's information.
+            </summary>
+            <param name="id"></param>
+            <param name="patchDoc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.EnterpriseController.AddOffice(System.Guid,Dto.Dtos.AddDtos.OfficeAddDto)">
+            <summary>
+            Add a new office for a given enterprise.
+            </summary>
+            <param name="enterpriseId">Enterprise id</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.EnterpriseController.UpdateOffice(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Dto.Dtos.UpdateDtos.OfficeUpdateDto})">
+            <summary>
+            Update an office's information.
+            </summary>
+            <param name="id">Office uid</param>
+            <param name="patchDoc">Array of operations to execute</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.EnterpriseController.DeleteOffice(System.Guid)">
+            <summary>
+            Delete an enterprises's office by its uid. 
+            </summary>
+            <param name="officeId">Office uid</param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.PersonController.GetPerson(System.Guid)">
+            <summary>
+            Get one person by its uid.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.PersonController.AddPerson(Dto.Dtos.AddDtos.PersonAddDto)">
+            <summary>
+            Add a person and get it back with id set.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.PersonController.UpdatePerson(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Dto.Dtos.UpdateDtos.PersonUpdateDto})">
+            <summary>
+            Update a person's information. Each property is updated individually.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.PersonController.DeletePerson(System.Guid)">
+            <summary>
+            Delete a person by its uid.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.UserController.GetUser(System.Guid)">
+            <summary>
+            Get a user with its person(al) information.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.UserController.Register(Dto.Dtos.AddDtos.UserAddDto)">
+            <summary>
+            Add a user and his person(al) information.
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Service.Controllers.UserController.Authenticate(Dto.Dtos.GetDtos.UserAuthenticationGetDto)">
+            <summary>
+            Authenticate to the api and get a jwt bearer token.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+C:\Users\ergin\source\repos\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\ergin\source\repos\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\ergin\source\repos\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\ergin\source\repos\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\ergin\source\repos\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\ergin\source\repos\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\ergin\source\repos\Common\obj\Debug\netcoreapp3.1\Common.pdb

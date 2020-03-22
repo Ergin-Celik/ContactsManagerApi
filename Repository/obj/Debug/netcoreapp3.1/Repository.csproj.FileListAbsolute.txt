@@ -1,0 +1,13 @@
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\ergin\source\repos\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\ergin\source\repos\Repository\bin\Debug\netcoreapp3.1\Common.pdb
